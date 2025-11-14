@@ -9,10 +9,6 @@
     @apply outline-none shadow-outline;
 }
 
-.btn:hover {
-    @apply bg-gray-300;
-}
-
 .btn-indigo {
     @apply bg-indigo-500 text-white;
 }

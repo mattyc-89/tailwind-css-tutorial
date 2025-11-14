@@ -1,12 +1,12 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
 
+/* Custom button styles */
 .btn {
     @apply inline-block px-5 py-3 rounded-lg uppercase tracking-wider font-semibold;
 }
 
 .btn:focus {
-    @apply outline-none shadow-outline;
+    @apply outline-none ring-2;
 }
 
 .btn-indigo {
@@ -32,5 +32,3 @@
 .btn-gray:active {
     @apply bg-gray-500;
 }
-
-@tailwind utilities;
